@@ -15,15 +15,16 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
+        //text saying hello
             Text text = new Text("Hello GDSC");
+            //making button that says click me 
             Button button = new Button("Click me!");
             VBox root = new VBox();
 
             root.getChildren().add(text);
             root.getChildren().add(button);
 
-
+//screen's min size
             root.setMinSize(350,250);
 
             Scene scene = new Scene(root);
