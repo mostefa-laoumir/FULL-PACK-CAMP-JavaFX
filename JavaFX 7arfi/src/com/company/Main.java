@@ -8,6 +8,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    //WORK WITH USER LOCATION
 
     public static void main(String[] args) {
         launch(args);
